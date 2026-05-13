@@ -450,7 +450,7 @@ func foldToolKeywordRune(r rune) (byte, bool) {
 	}
 	r = unicode.ToLower(r)
 	switch r {
-	case 'a', 'c', 'd', 'e', 'i', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'v':
+	case 'a', 'c', 'd', 'e', 'i', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'v':
 		return byte(r), true
 	case 'а', 'Α', 'α':
 		return 'a', true
